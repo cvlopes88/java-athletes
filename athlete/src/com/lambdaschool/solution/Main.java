@@ -6,6 +6,9 @@ public class Main
     {
         AthleteCreationInjector injector;
         Processor app;
+//
+//        app = injector.getProcess();
+//        app.displayAthlete();
 
         // Create a Track Athlete
         injector = new TrackAthleteCreationInjector();
