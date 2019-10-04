@@ -1,8 +1,10 @@
 package com.lambdaschool.solution;
 
-public class TrackAthleteCreator implements Athlete {
+public class TrackAthleteCreator implements AthleteCreator {
     @Override
-    public void displayAthlete(String athlete) {
+    public void printAthlete(String athlete, String met) {
+
+        System.out.println(athlete);
 
     }
 }

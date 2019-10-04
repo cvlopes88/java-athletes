@@ -2,16 +2,16 @@ package com.lambdaschool.solution;
 
 public class MyApplication implements Processor {
 
-    private Athlete atl;
+    private AthleteCreator atl;
 
-    public MyApplication(Athlete atl) {this.atl = atl;}
+    public MyApplication(AthleteCreator atl) {this.atl = atl;}
 
 
 
     @Override
-    public void displayAthlete(String athlete){
-        athlete =  "\n *** eyes only ******" + athlete  + "\n***********";
-        atl.displayAthlete(athlete);
+    public void displayAthlete(String athlete, String met){
+        athlete =  "\n ***** eyes only ******\n" + athlete  + " "+ met + "\n***********\n";
+        atl.printAthlete(athlete, met);
     }
 
 
